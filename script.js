@@ -32,5 +32,6 @@ function calculate() {
 	
 	var n=sum.toFixed(2);
 	
-    $('#output').html(n).prepend("&pound;");
+    $('.output').html(n).prepend("&pound;");
 }
+

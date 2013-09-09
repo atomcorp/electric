@@ -1,0 +1,36 @@
+body {
+	font-family: 'Poiret One', cursive;
+}
+
+.content {
+	margin: 0 auto;
+	width:960px;
+	text-align:center;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+header {
+	margin:5% 0;
+}
+
+.choose {
+	width:60%;
+	margin: 0 auto;
+	background-color:blue;
+}
+
+.choose_brand, .choose_kwh {
+	float:left;
+	width:44%;
+	margin:-5% 0 0 4%;
+	background-color:red;
+	height:7rem;
+}
+
+.result {
+	clear:both;
+	padding:10px 0;
+}

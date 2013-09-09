@@ -2,25 +2,37 @@
 <html lang="en-GB">
 <head>
 	<title>Electric</title>
-	<link rel="spreadsheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
 	<script src="script.js"></script>
-	
-	
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<h1>Electricity Meter</h1>
-<section>
-	<h2>Choose your supplier</h2>
-	<select name="brand_choice"  id="brand_choice">
-		<option value="Select One">Select One</option>
-		<option value="0.14">nPower</option>
-		<option value="0.13">British Gas</option>
-		<option value="0.12">Scottish Power</option>
-	</select>
+<body>
+<section class="content">
+<img src="http://placehold.it/150x150">
+<h1>Meter Beater</h1>
+<header>
+What's the <strong>real</strong> cost of your electricity?
+</header>
+<section class="choose">
+	<section class="choose_brand">
+		<h2>Choose your supplier</h2>
+		<select name="brand_choice"  id="brand_choice">
+			<option value="Select One">Select One</option>
+			<option value="0.14">nPower</option>
+			<option value="0.13">British Gas</option>
+			<option value="0.12">Scottish Power</option>
+		</select>
+	</section>
+	<section class="choose_kwh">
+		<h2>Input your kWh usage</h2>
+		<input name="kWh" />
+	</section>
+<section class="result">
+<p>Your electricity costs: <span class="output">&pound;0.00</span></p>
 </section>
-<section>
-	<h2>Input your kWh usage</h2>
-	<input name="kWh" />
 </section>
-<div id="output"></div>
+</section>
+</body>
 </html>
